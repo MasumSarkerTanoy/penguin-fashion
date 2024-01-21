@@ -31,7 +31,7 @@
                 </ul>
             </div>
         </nav>
-        <div class="md:hidden">
+        <div class=" m-2 md:hidden">
             <input type="text" placeholder="what would you like"  class="border-4 w-full p-1 rounded-full">
         </div>
         <div class="flex flex-col md:flex-row md:items-center md:gap-x-36 ">
@@ -51,7 +51,7 @@
         </div>
     </header>
     <main>
-        <h1 class=" text-center text-4xl text-[#363958] my-16 bg-slate-300">WOMAN JACKET</h1>
+        <h1 class=" text-center text-4xl text-[#363958] mt-16 mb-5 bg-slate-300">WOMAN JACKET</h1>
         <div class="flex flex-col md:flex-row">
             <div class="max-w-[305px] m-auto first:">
                 <div class=" bg-[#F1F1F1] rounded-lg" >
@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="text-center text-4xl text-[#363958] my-16 bg-slate-300">MAN JACKET</h1>
+        <h1 class="text-center text-4xl text-[#363958] mt-16 mb-5 bg-slate-300">MAN JACKET</h1>
         <div class="flex flex-col md:flex-row">
             <div class="max-w-[305px] m-auto first:">
                 <div class=" bg-[#F1F1F1] rounded-lg" >
@@ -141,7 +141,7 @@
         </div>
 
         <!-- -------------------Our Services--------- -->
-        <h1 class=" text-center text-4xl text-[#363958] my-16 bg-slate-300">Our Services</h1>
+        <h1 class=" text-center text-4xl text-[#363958] mt-5 bg-slate-300">Our Services</h1>
         <div class="flex flex-col justify-center md:flex-row-reverse md:items-center">
         <div class="w-full">
             <img src="./images/shopping.png" alt="" class="w-full">
@@ -183,9 +183,24 @@
         </div>
         </div>
     </main>
-    <footer >
-        
-       
+    <footer class="w-full bg-[#FFF8F3] flex justify-center items-center">
+            <div class="m-2">
+                <h1 class="text-2xl">Let me know</h1>
+                <form class="space-y-2">
+                    <div>
+                        <input type="text" name="user" placeholder="Your name" class="border-4 w-80">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Your email" class="border-4 w-80">
+                    </div>
+                    <div>
+                        <textarea name="message"  cols="30" rows="10" class="border-4">Put your comment</textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="border bg-[#FD6E0A] text-[#FFF] px-6 py-2 rounded-lg ring-1">
+                    </div>
+                </form>
+            </div>
     </footer>
 </body>
 </html>
